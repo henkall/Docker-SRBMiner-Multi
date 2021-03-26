@@ -3,7 +3,7 @@
 # see run.sh
 #
 
-FROM debian:buster-slim
+FROM debian
 
 RUN apt-get update && apt-get -y install wget xz-utils && \
     cd /opt && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.7.1/SRBMiner-Multi-0-7-1-Linux.tar.xz && \
