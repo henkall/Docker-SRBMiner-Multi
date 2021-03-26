@@ -11,6 +11,6 @@ RUN apt-get update && apt-get -y install wget xz-utils && \
 	apt-get -y purge wget xz-utils && apt-get -y autoremove --purge && apt-get -y clean && apt-get -y autoclean; rm -rf /var/lib/apt-get/lists/*
 USER nobody:nogroup
 # it needs a workdir spec in order to see the 'verus-solver' binary right next to it
-WORKDIR "/opt/SRBMiner-Multi-0-6-9-Linux"
+WORKDIR "/opt/SRBMiner-Multi-0-6-9"
 
 # EOF
