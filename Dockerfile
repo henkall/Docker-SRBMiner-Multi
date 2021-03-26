@@ -12,6 +12,5 @@ RUN apt-get update && apt-get -y install wget xz-utils && \
 USER nobody:nogroup
 # it needs a workdir spec in order to see the 'verus-solver' binary right next to it
 WORKDIR "/opt/SRBMiner-Multi-0-7-1"
-CMD "./SRBMiner-MULTI --algorithm $ALGO --pool $POOL_ADDRESS --wallet $WALLET_USER --password $PASSWORD $EXTRAS"
-
+ENTRYPOINT "./entrypoint"
 # EOF
