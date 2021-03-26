@@ -11,7 +11,6 @@ RUN apt-get update && apt-get -y install wget xz-utils && \
 	apt-get -y purge xz-utils && apt-get -y autoremove --purge && apt-get -y clean && apt-get -y autoclean; rm -rf /var/lib/apt-get/lists/*
 COPY entrypoint /opt/SRBMiner-Multi-0-7-1/
 RUN chmod +x /opt/SRBMiner-Multi-0-7-1/entrypoint
-USER nobody:nogroup
 # it needs a workdir spec in order to see the 'verus-solver' binary right next to it
 WORKDIR "/opt/SRBMiner-Multi-0-7-1"
 ENTRYPOINT "./entrypoint"
