@@ -1,2 +1,2 @@
-#!/bin/bash
+#!/bin/sh
 ./SRBMiner-MULTI --algorithm $ALGO --pool $POOL_ADDRESS --wallet $WALLET_USER --password $PASSWORD $EXTRAS
