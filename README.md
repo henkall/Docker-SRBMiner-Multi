@@ -16,7 +16,7 @@ services:
     image: henkallsn/docker-srbminer-multi
     environment:
       ALGO: verushash
-      POOL_ADDRESS: stratum+tcp://na.luckpool.net:3956#xnsub
+      POOL_ADDRESS: stratum+tcp://na.luckpool.net:3956
       WALLET_USER: RRmpZ1tajCXVG9999LWUD4CPVyZvjpe3iZ
       PASSWORD: x
       EXTRAS:
