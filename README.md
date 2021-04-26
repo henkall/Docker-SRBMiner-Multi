@@ -12,6 +12,7 @@ version: '2'
 services:
 # -------------------------------------------------------------------
   srbminer:
+    tty: true
     image: henkallsn/docker-srbminer-multi
     environment:
       ALGO: verushash
