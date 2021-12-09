@@ -1,5 +1,5 @@
 # Docker-SRBMiner-Multi
-Docker containing SRBMiner-Multi 0.7.7
+Docker containing SRBMiner-Multi 0.8-5
 
 I am not the developer of SRBMiner-Multi but are just using it in a docker
 
